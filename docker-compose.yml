@@ -1,0 +1,10 @@
+version: '3'
+services:
+  class_c:
+    build: ./
+    image: class_c
+    container_name: class_c
+    volumes:
+      - ./code:/code
+    working_dir: /code
+    tty: true
