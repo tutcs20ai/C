@@ -1,7 +1,7 @@
 ### 利用方法
-構築: docker-compose up -d
-削除: docker-compose down --rmi all
-実行: docker-compose exec class_c "command"
+構築: docker-compose up -d  
+削除: docker-compose down --rmi all  
+実行: docker-compose exec class_c "command"  
 
 ### 注意
 - 当方は一切の責任を負いかねます
