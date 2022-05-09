@@ -1,7 +1,7 @@
 ### 利用方法
-構築: docker-compose up -d  
-削除: docker-compose down --rmi all  
-実行: docker-compose exec "container_name" "command"
+構築: docker-compose up -d  \
+削除: docker-compose down --rmi all  \
+実行: docker-compose exec "container_name" "command"  \
 ファイル場所: code/ 以下
   
 ### 注意
